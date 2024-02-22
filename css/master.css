@@ -4,13 +4,6 @@
     box-sizing: border-box;
 }
 /* commons */
-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
 .container{
     display: flex;
     width: 60%; 
@@ -21,24 +14,89 @@ header{
     /* debug */
     /* height: 50px; */
 }
+header,
+main,
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+main{
+    flex-direction: column;
+    /* debug */
+    /* background-color: rgb(125, 255, 255); */
+    /* height: 1000px; */
+}
 
 /* nav */
 nav.container{
+    width: 60%;
     background-color: rgb(218, 165, 32);
     height: 30px;
     line-height: 30px;
-    margin: 10px;
     justify-content: space-between;
 }
 
-.container > div{
+.container > .nav{
     width: calc(90% / 3 - 30px);
     /* debug */
     /* background-color: aqua; */
     border: 1px Dashed black;
+}
+
+.menu{
+    flex-grow: 1;
+}
+
+/* main */
+.container{
+    width: 100%;
+}
+
+.bigpink-container{
+    width: 45%;
+    height: 200px;
+    background-color: rgb(238, 130, 238);
+}
+
+.bigpink-container,
+nav.container,
+.big-container,
+.small-container
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px dashed black;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.grey{
+    background-color: rgb(211, 211, 211);
+}
+
+.lightblue{
+    background-color: rgb(30, 144, 255);
+}
+
+.lightpink{
+    background-color: rgb(255, 192, 203);  
+}
+
+.big-container{
+    width: 40%;
+    /* debug */
+    height: 300px;
+}
+
+.small-container{
+    width: 20%;
+    /* debug */
+    height: 300px;
   
 }
 
-.menu-nav{
-    flex-grow: 1;
-}
