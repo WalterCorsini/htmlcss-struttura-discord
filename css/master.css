@@ -26,17 +26,17 @@ main,
 
 .nav-container,
 .multi-container,
-.green-container,
-footer.container {
+.thebigone,
+.footer {
     width: 60%;
 }
 
-.bigpink-container,
+.very-big,
 .big-container,
 .small-container,
-.green-container,
+.thebigone,
 .verysmall-container,
-footer {
+.footer {
     margin-top: 20px;
     margin-bottom: 20px;
     /* debug */
@@ -51,7 +51,6 @@ footer {
     margin-bottom: 10px;
     justify-content: space-between;
     /* debug */
-    background-color: rgb(218, 165, 32);
     border: 1px Dashed black;
 }
 
@@ -70,7 +69,7 @@ footer {
     width: 100%;
 }
 
-.bigpink-container {
+.very-big {
     width: 45%;
     /* debug */
     height: 200px;
@@ -90,7 +89,6 @@ footer {
 }
 
 .footer {
-    width: 60%;
     justify-content: space-between;
     /* debug */
     height: 40px;
@@ -113,7 +111,7 @@ footer .container {
 }
 
 /* DEBUG    DEBUG   DEBUG   DEBUG   DEBUG   DEBUG   DEBUG   DEBUG*/
-.green-container {
+.thebigone {
     height: 500px;
     line-height: 500px;
 }
@@ -127,6 +125,10 @@ footer .container {
 
 .verysmall-container.tiffany {
     border: 1px dashed white;
+}
+
+.orange{
+    background-color: rgb(218, 165, 32);
 }
 
 .darkpink {
