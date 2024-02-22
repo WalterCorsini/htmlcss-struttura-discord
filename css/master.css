@@ -57,14 +57,36 @@ nav.container{
 
 .bigpink-container{
     width: 45%;
+    /* debug */
     height: 200px;
     background-color: rgb(238, 130, 238);
+}
+
+.green-container{
+    width: 60%;
+    /* debug */
+    height: 500px;
+    background-color: rgb(34, 139, 34);
+}
+
+.big-container{
+    width: 40%;
+    /* debug */
+    height: 300px;
+}
+
+.small-container{
+    width: 20%;
+    /* debug */
+    height: 300px;
+ 
 }
 
 .bigpink-container,
 nav.container,
 .big-container,
-.small-container
+.small-container,
+.green-container
 {
     margin-top: 20px;
     margin-bottom: 20px;
@@ -87,16 +109,4 @@ nav.container,
     background-color: rgb(255, 192, 203);  
 }
 
-.big-container{
-    width: 40%;
-    /* debug */
-    height: 300px;
-}
-
-.small-container{
-    width: 20%;
-    /* debug */
-    height: 300px;
-  
-}
 
