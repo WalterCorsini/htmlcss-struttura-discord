@@ -1,21 +1,23 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
 /* commons */
-main{
+main {
     flex-direction: column;
     /* debug */
     /* background-color: rgb(125, 255, 255); */
     /* height: 1000px; */
 }
+
 header,
 main,
 .container,
 .nav-container,
 .multi-container,
-.footer{
+.footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,9 +27,8 @@ main,
 .nav-container,
 .multi-container,
 .green-container,
-footer.container
-{
-    width:  60%;
+footer.container {
+    width: 60%;
 }
 
 .bigpink-container,
@@ -35,15 +36,15 @@ footer.container
 .small-container,
 .green-container,
 .verysmall-container,
-footer
-{
+footer {
     margin-top: 20px;
     margin-bottom: 20px;
     /* debug */
     border: 1px dashed black;
 }
+
 /* nav */
-.nav-container{
+.nav-container {
     height: 30px;
     line-height: 30px;
     margin-top: 10px;
@@ -54,41 +55,41 @@ footer
     border: 1px Dashed black;
 }
 
-.nav{
+.nav {
     width: 20%;
     /* debug */
     border: 1px dashed black;
 }
 
-.menu{
+.menu {
     flex-grow: 1;
 }
 
 /* main */
-.container{
+.container {
     width: 100%;
 }
 
-.bigpink-container{
+.bigpink-container {
     width: 45%;
     /* debug */
     height: 200px;
     line-height: 200px;
 }
 
-.big-container{
+.big-container {
     width: 40%;
 }
 
-.small-container{
+.small-container {
     width: 20%;
 }
 
-.verysmall-container{
+.verysmall-container {
     width: calc(100% / 5);
 }
 
-.footer{
+.footer {
     width: 60%;
     justify-content: space-between;
     /* debug */
@@ -97,13 +98,13 @@ footer
 }
 
 /* footer */
-.foot{
+.foot {
     width: 10%;
     margin-top: 6px;
     margin-bottom: 6px;
 }
 
-footer .container{
+footer .container {
     margin-top: 1px;
     margin-bottom: 1px;
     /* debug */
@@ -112,62 +113,62 @@ footer .container{
 }
 
 /* DEBUG    DEBUG   DEBUG   DEBUG   DEBUG   DEBUG   DEBUG   DEBUG*/
-.green-container{
+.green-container {
     height: 500px;
     line-height: 500px;
 }
 
 .verysmall-container,
 .small-container,
-.big-container{
+.big-container {
     line-height: 300px;
     height: 300px;
 }
 
-.verysmall-container.tiffany{
+.verysmall-container.tiffany {
     border: 1px dashed white;
 }
 
-.darkpink{
+.darkpink {
     background-color: rgb(238, 130, 238);
 }
 
-.blue{
+.blue {
     background-color: blue;
 }
 
-.grey{
+.grey {
     background-color: rgb(211, 211, 211);
 }
 
-.lightblue{
+.lightblue {
     background-color: rgb(30, 144, 255);
 }
 
-.lightpink{
-    background-color: rgb(255, 192, 203);  
+.lightpink {
+    background-color: rgb(255, 192, 203);
 }
 
-.darkgrey{
+.darkgrey {
     background-color: rgb(35, 39, 42);
 }
 
-.pink{
+.pink {
     background-color: rgb(240, 128, 128);
 }
 
-.tiffany{
+.tiffany {
     background-color: rgb(32, 178, 170);
 }
 
-.lighttiffany{
+.lighttiffany {
     background-color: rgb(127, 255, 212);
 }
 
-.green{
+.green {
     background-color: rgb(34, 139, 34);
 }
 
-.lightcyan{
+.lightcyan {
     background-color: rgb(173, 216, 230);
 }
