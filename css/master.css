@@ -4,10 +4,6 @@
     box-sizing: border-box;
 }
 /* commons */
-.container{
-    display: flex;
-    width: 60%; 
-}
 
 header{
     background-color:rgb(173, 216, 230);
@@ -16,7 +12,8 @@ header{
 }
 header,
 main,
-.container{
+.container,
+.nav-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -31,19 +28,19 @@ main{
 }
 
 /* nav */
-nav.container{
-    width: 60%;
-    background-color: rgb(218, 165, 32);
+.nav-container{
     height: 30px;
     line-height: 30px;
     justify-content: space-between;
+    /* debug */
+    background-color: rgb(218, 165, 32);
+    border: 1px Dashed black;
 }
 
-.container > .nav{
-    width: calc(90% / 3 - 30px);
+.nav{
+    width: 20%;
     /* debug */
-    /* background-color: aqua; */
-    border: 1px Dashed black;
+    border: 1px dashed black;
 }
 
 .menu{
@@ -59,38 +56,65 @@ nav.container{
     width: 45%;
     /* debug */
     height: 200px;
-    background-color: rgb(238, 130, 238);
+    line-height: 200px;
 }
 
 .green-container{
-    width: 60%;
     /* debug */
     height: 500px;
+    line-height: 500px;
     background-color: rgb(34, 139, 34);
 }
 
 .big-container{
     width: 40%;
-    /* debug */
-    height: 300px;
 }
 
 .small-container{
     width: 20%;
-    /* debug */
-    height: 300px;
- 
+}
+
+.multi-container{
+    display: flex;
+}
+
+.verysmall-container{
+    width: calc(100% / 5);
+}
+
+.nav-container,
+.multi-container,
+.green-container
+{
+    width:  60%;
 }
 
 .bigpink-container,
 nav.container,
 .big-container,
 .small-container,
-.green-container
+.green-container,
+.verysmall-container
 {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 1px dashed black;
+}
+
+.verysmall-container.tiffany{
+    border: 1px dashed white;
+}
+
+/* debug */
+.verysmall-container,
+.small-container,
+.big-container{
+line-height: 300px;
+height: 300px;
+}
+
+.darkpink{
+    background-color: rgb(238, 130, 238);
 }
 
 .blue{
@@ -109,4 +133,14 @@ nav.container,
     background-color: rgb(255, 192, 203);  
 }
 
+.darkgrey{
+    background-color: rgb(35, 39, 42);
+}
 
+.pink{
+    background-color: rgb(240, 128, 128);
+}
+
+.tiffany{
+    background-color: rgb(32, 178, 170);
+}
