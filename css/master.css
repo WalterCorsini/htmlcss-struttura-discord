@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* commons */
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.container{
+    display: flex;
+    width: 60%; 
+}
+
+header{
+    background-color:rgb(173, 216, 230);
+    /* debug */
+    /* height: 50px; */
+}
+
+/* nav */
+nav.container{
+    background-color: rgb(218, 165, 32);
+    height: 30px;
+    line-height: 30px;
+    margin: 10px;
+    justify-content: space-between;
+}
+
+.container > div{
+    width: calc(90% / 3 - 30px);
+    /* debug */
+    /* background-color: aqua; */
+    border: 1px Dashed black;
+  
+}
+
+.menu-nav{
+    flex-grow: 1;
+}
