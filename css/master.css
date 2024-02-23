@@ -12,23 +12,25 @@ main {
     /* height: 1000px; */
 }
 
-header,
-main,
-.container,
-.nav-container,
-.multi-container,
-.footer {
+.flex-container,
+.footer-container,
+.nav-container {
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
 }
 
+.flex-container{
+    width: 100%;
+}
+
 .nav-container,
 .multi-container,
 .thebigone,
-.footer {
+.footer-container {
     width: 60%;
+
 }
 
 .very-big,
@@ -36,7 +38,7 @@ main,
 .small-container,
 .thebigone,
 .verysmall-container,
-.footer {
+.footer-container {
     margin-top: 20px;
     margin-bottom: 20px;
     /* debug */
@@ -65,9 +67,6 @@ main,
 }
 
 /* main */
-.container {
-    width: 100%;
-}
 
 .very-big {
     width: 45%;
@@ -88,7 +87,7 @@ main,
     width: calc(100% / 5);
 }
 
-.footer {
+.footer-container{
     justify-content: space-between;
     /* debug */
     height: 40px;
