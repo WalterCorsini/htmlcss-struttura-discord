@@ -95,67 +95,52 @@ footer-container {
     /* debug */
     border: 1px dashed black;
 }
-
 .thebigone {
     height: 500px;
     line-height: 500px;
 }
-
 .verysmall-container,
 .small-container,
 .big-container {
     line-height: 300px;
     height: 300px;
 }
-
 .verysmall-container.tiffany {
     border: 1px dashed white;
 }
-
 .orange{
     background-color: rgb(218, 165, 32);
 }
-
 .darkpink {
     background-color: rgb(238, 130, 238);
 }
-
 .blue {
     background-color: blue;
 }
-
 .grey {
     background-color: rgb(211, 211, 211);
 }
-
 .lightblue {
     background-color: rgb(30, 144, 255);
 }
-
 .lightpink {
     background-color: rgb(255, 192, 203);
 }
-
 .darkgrey {
     background-color: rgb(35, 39, 42);
 }
-
 .pink {
     background-color: rgb(240, 128, 128);
 }
-
 .tiffany {
     background-color: rgb(32, 178, 170);
 }
-
 .lighttiffany {
     background-color: rgb(127, 255, 212);
 }
-
 .green {
     background-color: rgb(34, 139, 34);
 }
-
 .lightcyan {
     background-color: rgb(173, 216, 230);
 }
